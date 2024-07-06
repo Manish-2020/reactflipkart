@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from 'react'
 import './App.css'
-import { getDatabase, set, ref, get, remove } from "firebase/database";
+import { getDatabase, ref, get, } from "firebase/database";
 import app from './firebase';
 
-import img1 from './images/img1.png'
-import img2 from './images/img2.webp'
-import img3 from './images/img3.png'
-import img4 from './images/img4.webp'
-import img5 from './images/img5.jpg'
-import img6 from './images/img6.jpg'
-import img7 from './images/img7.webp'
-import img8 from './images/img8.png'
-import img9 from './images/img9.png'
+// import img1 from './images/img1.png'
+// import img2 from './images/img2.webp'
+// import img3 from './images/img3.png'
+// import img4 from './images/img4.webp'
+// import img5 from './images/img5.jpg'
+// import img6 from './images/img6.jpg'
+// import img7 from './images/img7.webp'
+// import img8 from './images/img8.png'
+// import img9 from './images/img9.png'
 import logo from './images/logo.png'
 import profile from './images/profile.png'
 import cart from './images/cart.png'

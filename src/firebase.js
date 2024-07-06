@@ -5,15 +5,14 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyB8ChGYbz9xC_05oYRJ7Q6_lJee-Lox1vA",
-    authDomain: "flipkart-317ec.firebaseapp.com",
-    projectId: "flipkart-317ec",
-    storageBucket: "flipkart-317ec.appspot.com",
-    messagingSenderId: "1036200893568",
-    appId: "1:1036200893568:web:9706f90209c61a3ce81a65",
-    measurementId: "G-HCF6J5YP0N"
+    apiKey: "AIzaSyCZBSy4upcwgemNOr2n_I7QT8XATJQ8WJ8",
+    authDomain: "webapp-44121.firebaseapp.com",
+    databaseURL: "https://webapp-44121-default-rtdb.firebaseio.com",
+    projectId: "webapp-44121",
+    storageBucket: "webapp-44121.appspot.com",
+    messagingSenderId: "153981437242",
+    appId: "1:153981437242:web:9f2aa24eedd61e69e17c03"
 };
-
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
